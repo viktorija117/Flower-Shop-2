@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../slike/icon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Prodavnica</title>
+</head>
+<body>
+    <header class="row">
+        <div class="col-4">
+            <img src="../slike/logo.png" alt="logo">
+        </div>
+        <div class="col-8">
+            <ul class="skriveniMeni">
+                <li><a href="../index.html"><img src="../slike/pocetnaicon.png" alt="" class="ikonica"> POČETNA</a></li>
+                <li><a href="oNama.html"><img src="../slike/oNamaicon.png" alt="" class="ikonica"> O NAMA</a></li>
+                <div class="padajuci">
+                    <li><a><img src="../slike/lokacijeicon.png" alt="" class="ikonica"> LOKACIJE</a>
+                        <div class="padajuciKontent col-4" >
+                            <a href="#">Beograd</a>
+                            <a href="#">Niš</a>
+                            <a href="#">Leskovac</a>
+                        </div>
+                    </li>
+                </div>
+                <li><a href="kontakt.html"><img src="../slike/kontakticon.png" alt="" class="ikonica"> KONTAKT</a></li>
+                <li><a href="#korpa"><img src="../slike/korpaicon.png" alt="" class="ikonica"> KORPA</a></li>        
+                  
+            </ul>
+        </div>           
+    </header>
+    <main>
+        <div class="row proizvodi">
+            <div class="col-4 proizvod">
+                <article>
+                    <img src="../slike/prodavnica1.png" alt="">
+                    <h3 class="naziv">BUKET 1</h3>
+                    <h4 class="cena">5300 RSD</h4>
+                    <button onclick="dodajProizvod(this)">Dodaj u korpu!</button>
+                </article>
+            </div>
+            <div class="col-4 proizvod">
+                <article>
+                    <img src="../slike/prodavnica2.png" alt="">
+                <h3 class="naziv">BUKET 2</h3>
+                <h4 class="cena">4500 RSD</h4>
+                <button onclick="dodajProizvod(this)">Dodaj u korpu!</button>            
+                </article>
+            </div>
+            <div class="col-4 proizvod">
+                <article>
+                    <img src="../slike/prodavnica3.png" alt="">
+                <h3 class="naziv">BUKET 3</h3>
+                <h4 class="cena">4000 RSD</h4>
+                <button onclick="dodajProizvod(this)">Dodaj u korpu!</button>            
+                </article>
+            </div>
+        </div>
+        <div class="row proizvodi">
+            <div class="col-4 proizvod">
+                <article>
+                    <img src="../slike/prodavnica4.png" alt="">
+                    <h3 class="naziv">BUKET 4</h3>
+                    <h4 class="cena">2000 RSD</h4>
+                    <button onclick="dodajProizvod(this)">Dodaj u korpu!</button>            
+                </article>
+            </div>
+            <div class="col-4 proizvod">
+                <article>
+                    <img src="../slike/prodavnica5.png" alt="">
+                <h3 class="naziv">BUKET 5</h3>
+                <h4 class="cena">3000 RSD</h4>
+                <button onclick="dodajProizvod(this)">Dodaj u korpu!</button>            
+                </article>
+            </div>
+            <div class="col-4 proizvod">
+                <article>
+                    <img src="../slike/prodavnica6.png" alt="">
+                <h3 class="naziv">BUKET 6</h3>
+                <h4 class="cena">2500 RSD</h4>
+                <button onclick="dodajProizvod(this)">Dodaj u korpu!</button>            
+                </article>
+            </div>
+        </div>
+        <br>
+            <div id="korpa" class="row">
+                <div>
+                    <h3 style="color: #b9a687; text-shadow: 1px 1px #000; font-size: 50px; text-align: center;">KORPA</h3>
+                    <div class="proizvodiIzKorpe"></div>
+                    <span class="ukupnaCena" 
+                        style="color: #b9a687; text-shadow: 1px 1px #000; font-size: 30px; text-align: center;">
+                        Ukupna cena: <span id="ukupna">0</span> RSD
+                    </span><br><br>
+                    <a id="porucivanje">Poruči</a>
+                </div>
+            </div>    
+    
+    </main>
+    <footer class="row">
+        <div class="col-6">
+            <h5>O NAMA:</h5> <br>
+            <p>U našoj ponudi je širok izbor ekskluzivnog, uvoznog svežeg rezanog i saksijskog cveća. <br>
+                    Uz našu pomoć, iskustvo i ljubaznost pomoći ćemo Vam da obradujete svoje najmilije.</p> <br>
+            <h5>KONTAKTIRAJTE NAS:</h5> <br>
+            <ul>
+                <li><a href="https://www.facebook.com/kmekalo17/"><img src="../slike/fbicon.png" alt="" class="ikonicafooter"></a></li>
+                <li><a href="https://www.instagram.com/vkitanovic17/"><img src="../slike/instaicon.png" alt="" class="ikonicafooter"></a></li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <img src="../slike/logo.png" alt="logo">
+        </div>   
+    </footer>
+    <div class="miniFooter col-12">
+       <p>Copyright © 2022 Cvećara CVETNO. All Rights Reserved <br> Created with love by Viktorija_Kitanović_394</p>
+    </div>
+    <!-- S C R I P T -->
+<script src="../js/funkcije.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+Poštovani profesore,
+Evo kratkog uputstva vezanog za projekat.
+
+Zbog postavljanja sajta na firebase server postoji folder Public u kom se nalazi index1.html, ali početna stranica je index.html.
+
+Nakon učitavanja baze biće dodati artikli i menadžer(IBR: 1234567891, LOZINKA: lozinkaM1 ) cvećare. 
+
+Stranici menadžer pristupa se klikom na dugme PRIJAVA ZAPOSLENIH koje se nalazi u meniju na početnoj strani.
+Nakon prijave može se Zaposliti / Izmeniti /  Otpustiti radnik nakon čega se možete odjaviti klikom na dugme Odjavi se.
+
+Nakon toga možete se na istoj stranici PRIJAVA ZAPOSLENIH prijavoti kao radnik sa parametrima koje ste prethodno dodali kao menadžer.
+
+Nakon prijave radnika, on ima mogućnost da pošalje proizvod iz tabele PORUDŽBINE koji je prethodno poručen preko KONTAKT forme, a zatim i da otkaže pošiljku u tabeli PREGLED POŠILJKI.
+
+To bi bilo kratko uputstvo vezano za ovaj projekat za koji se nadam da ispunjava sve uslove.
+
+S poštovanjem, Viktorija Kitanović 394

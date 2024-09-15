@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    overflow: hidden;
+}
+.ikonica{
+    width: 15px;
+}
+.ikonicaprodavnica {
+    width: 20px !important;
+}
+.ikonicafooter{
+    width: 35px;
+}
+.ikonicafooter:hover{
+    filter: invert(100%) sepia(81%) saturate(1060%) hue-rotate(310deg) brightness(38%) contrast(80%);
+}
+header {
+    position: fixed;
+    top:0;
+    z-index: 3;
+    display:inline-flex;
+    background: #fff;
+    border: 3px solid #cdb896;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+header li {
+    background-color: transparent;
+    margin: 0;
+    cursor: pointer;
+    color: #000;
+    display: inline;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+header li:hover{
+    border: 2px solid #cdb896;
+}
+header li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+header img {
+    width: 150px;
+}
+.padajuci {
+    position: relative;
+    display: inline-block;  
+} 
+.padajuciKontent {
+    border-radius: 6px;
+    border: 1px solid #cdb896;
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+}
+.padajuci:hover .padajuciKontent {
+    display: block;
+    position: fixed;
+}
+.padajuciKontent a {
+    background-color: #f9f9f9;
+    padding: 5px;
+    display: block;
+}
+.padajuciKontent a:hover{
+    background-color: #cfc3b0;
+    transition: 0.2s;
+    font-style: italic;
+}
+main {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.prvi {
+    display:inline-flex;
+    padding: 20px;
+    color: #000;
+    width: 100%;
+    height: 400px;
+    background-image: url(../slike/slika1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.prvi img{
+    width: 100%;
+}
+.prvi1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+.prvi2 {
+    background-color: #f0eae0;
+    border: 4px solid #b9a687;
+    padding: 70px;
+    font-size: larger;
+}
+.prvi h1{
+    text-shadow: 1px 1px #b9a687;
+}
+.drugi {
+    display:block;
+    margin-top: 15px;
+    color: #b9a687;
+    text-shadow: 1px 1px #000;
+}
+.drugi h1{
+    font-size: 70px;
+}
+.dugme1{
+    text-decoration: none;
+    color: #000;
+    background-color: #b9a687;
+    border: 2px solid #f0eae0;
+    padding:20px;
+    border-radius: 8px;
+    font-size: larger;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.dugme1:hover{
+    background-color: #f5f1ea;
+    border: 2px dotted #b9a687;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#radnoVreme td{
+    font-size: 30px;
+    border: 2px solid #b9a687;
+    color: #000;
+    padding: 5px;
+    border-radius: 6px;
+    min-width: 94px;
+    text-shadow: none;
+}
+footer {
+    z-index: 1;
+    bottom: 33px;
+    height: 250px;
+    display:inline-flex;
+    background-color: #e6dccb;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+footer li {
+    display: inline;
+    padding: 1px;
+    margin: 2px;
+}
+footer p {
+    color: rgb(50, 50, 50);
+}
+footer li a{
+    color: rgb(50, 50, 50);
+}
+footer img {
+    width: 330px;
+}
+.miniFooter{
+    margin-top: 10px;
+    font-size: smaller;
+    bottom: 5px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/*KONTAKT*/
+.zaFormu{
+    display:inline-flex;
+    padding: 30px 40px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.forma1{
+    padding: 15px 30px;
+    margin-bottom: 0;
+}
+form input{
+    min-height: 50px;
+    width: 100%;
+    margin: 5px;
+    border: 2px solid #b9a687;
+    border-radius: 4px;
+    text-align: center;
+}
+form .dugme {
+    width: 50%;
+    background-color: #b9a687;
+    border: 3px solid #f0eae0;
+    padding:15px;
+    border-radius: 8px;
+    font-size: larger;
+    transition: 0.8s;
+    cursor: pointer;
+}
+form .dugme:hover{
+    background-color: #f5f1ea;
+    border: 3px solid #b9a687;
+}
+.kontakt2{
+    display: block;
+}
+.kontakt2 div{
+    border: 1px dotted #b9a687;
+    padding:10px;
+}
+/*O NAMA*/
+
+#oNamaTabela{
+    margin: 10px;
+    border: 3px solid #b9a687;
+}
+#oNamaTabela td{
+    margin: 10px;
+}
+#oNamaTabela h1{
+    text-shadow: 1px 1px #000000;
+    color: #b9a687;
+    font-size: 40px;
+}
+#oNamaTabela p{
+    font-size: 20px;
+}
+#oNamaTabela img{
+    border-radius: 6px;
+}
+.ocenjivanje{ 
+    padding: 0 30px;
+    text-align: center;
+}
+.ocenjivanje h4{
+    text-shadow: 1px 1px #000000;
+    color: #b9a687;
+    font-size: 60px;
+    margin: 5px;
+}
+#potvrdiOcenu{
+    text-shadow: 1px 1px #000000;
+    color: #b9a687;
+    font-size: 30px;
+    margin: 10px;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+#potvrdiOcenu:hover{
+    border: 1px solid #cdb896;
+}
+.ocenjivanje button, .ocenjivanje span{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid transparent;
+    padding:15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 3px;
+}
+.ocenjivanje button:hover{
+    background-color: #f5f1ea;
+    border: 2px dotted #b9a687;
+}
+.ocenjivanje p{
+    padding: 10px 0;
+    border: 2px dotted #b9a687;
+}
+/* PRODAVNICA */
+
+.proizvodi{
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.proizvod{
+    text-align: center;
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+}
+
+.proizvodi .proizvod article{
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #b9a687;
+    padding: 10px;
+}
+
+article:hover{
+    transform: scale(1.08);
+    transition: 0.3s;
+}
+
+.proizvodi button{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid transparent;
+    padding:10px;
+    border-radius: 5px;
+    font-size: small;
+    transition: 0.5s;
+    margin: 3px;
+}
+.proizvodi button:hover {
+    background-color: #f5f1ea;
+    border: 2px dotted #b9a687;
+}
+#korpa h3{
+    font-size: 70px;
+}
+#korpa{
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#korpa a{
+    text-decoration: none;
+    color: #000;
+    background-color: #b9a687;
+    border: 2px solid #f0eae0;
+    padding:10px;
+    border-radius: 8px;
+    font-size: larger;
+    transition: 0.5s;
+}
+#korpa a:hover{
+    background-color: #f5f1ea;
+    border: 2px dotted #b9a687;
+}
+#korpa div{
+    padding: 20px;
+}
+
+/* D O D A T A K   ZA   B A Z E */
+
+/* MOBILNI */
+@media only screen and (max-width: 860px ){
+    [class*="col-"]{
+        width: 100%;
+    }
+    footer {
+        font-size: smaller;
+        padding: 10px;
+        display:block;
+        height: 300px; 
+    }
+    footer img {
+        width: 180px;
+        top: 0; 
+    }
+    .prvi2{
+        font-size: 8px;
+        padding: 40px;
+    }
+    .dugme1{   
+        cursor: pointer;
+        padding:5px;
+        border-radius: 8px;
+        font-size: 10px;
+    }
+    .drugi h1{
+        font-size: 30px;
+    }
+    td {
+        display: block;
+    }
+    .skriveniMeni{
+        display: none;
+    }
+    header{
+        display: block;
+    }
+    header:hover .skriveniMeni{
+        display: block;
+    }
+    header:hover .skriveniMeni li{
+        display: block;
+    }
+    .skriveniMeni div{
+        width: 100%;
+    }
+    .skriveniMeni .padajuciKontent {
+        width: 100%;
+    }
+    .padajuci .padajuciKontent {
+        display: block;
+        position: relative;
+        border: none;
+    }
+    .padajuci:hover .padajuciKontent {
+        display: block;
+        position: relative;
+        border: none;
+    }
+    .proizvod img{
+        padding: 10px;
+        width: 40%;
+    }
+    .ikonicaprodavnica {
+        width: 10px !important;
+    }
+    #radnoVreme tr{
+        display: inline-block;
+        position: relative;
+        }
+    #radnoVreme td{
+        font-size: 20px;
+    }  
+    .prvi2 h1{
+        font-size: small;
+    }
+    #oNamaTabela h3{
+        font-size: smaller;
+    }
+}
+/* DESKTOP */
+@media only screen and (min-width: 861px ){
+    [class*="col-"]{
+        float: left;
+    }
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 60%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }  
+}  
+/* TABLET */
+@media only screen and (max-width: 1300px ){
+    [class*="col-t"]{
+        width: 100%;
+    }
+    .prvi2{
+        font-size: 10px;
+        padding: 40px;
+    }
+    td img{
+        width: 80%;
+    }
+    .ikonicaprodavnica {
+        width: 10px !important;
+    }
+    #radnoVreme td{
+        font-size: 15px;
+    }  
+    .proizvod img{
+        padding: 10px;
+        width: 40%;
+    } 
+    header{
+        font-size: smaller;
+    }
+
+}
