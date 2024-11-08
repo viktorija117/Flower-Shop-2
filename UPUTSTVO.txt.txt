@@ -1,8 +1,3 @@
-Poštovani profesore,
-Evo kratkog uputstva vezanog za projekat.
-
-Zbog postavljanja sajta na firebase server postoji folder Public u kom se nalazi index1.html, ali početna stranica je index.html.
-
 Nakon učitavanja baze biće dodati artikli i menadžer(IBR: 1234567891, LOZINKA: lozinkaM1 ) cvećare. 
 
 Stranici menadžer pristupa se klikom na dugme PRIJAVA ZAPOSLENIH koje se nalazi u meniju na početnoj strani.
